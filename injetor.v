@@ -40,6 +40,38 @@ always @(*) begin
         begin
           saida[7] = ~saida[7];
         end
+      if( n == 8 )
+        begin
+          saida[8] = ~saida[8];
+        end
+      if( n == 9 )
+        begin
+          saida[9] = ~saida[9];
+        end
+      if( n == 10 )
+        begin
+          saida[10] = ~saida[10];
+        end
+      if( n == 11 )
+        begin
+          saida[11] = ~saida[11];
+        end
+      if( n == 12 )
+        begin
+          saida[12] = ~saida[12];
+        end
+      if( n == 13 )
+        begin
+          saida[13] = ~saida[13];
+        end
+      if( n == 14 )
+        begin
+          saida[14] = ~saida[14];
+        end
+      if( n == 15 )
+        begin
+          saida[15] = ~saida[15];
+        end
     end
 
 end
